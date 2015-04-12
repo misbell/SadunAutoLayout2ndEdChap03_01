@@ -10,9 +10,9 @@
 		C9DC763B1ADA875C00EEFED9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DC763A1ADA875C00EEFED9 /* AppDelegate.swift */; };
 		C9DC763D1ADA875C00EEFED9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DC763C1ADA875C00EEFED9 /* ViewController.swift */; };
 		C9DC76401ADA875C00EEFED9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9DC763E1ADA875C00EEFED9 /* Main.storyboard */; };
-		C9DC76421ADA875C00EEFED9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9DC76411ADA875C00EEFED9 /* Images.xcassets */; };
 		C9DC76451ADA875C00EEFED9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9DC76431ADA875C00EEFED9 /* LaunchScreen.xib */; };
 		C9DC76511ADA875C00EEFED9 /* EricaTPC01Hybrid1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DC76501ADA875C00EEFED9 /* EricaTPC01Hybrid1Tests.swift */; };
+		C9DC765B1ADA886B00EEFED9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9DC765A1ADA886B00EEFED9 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,11 +31,11 @@
 		C9DC763A1ADA875C00EEFED9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9DC763C1ADA875C00EEFED9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C9DC763F1ADA875C00EEFED9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C9DC76411ADA875C00EEFED9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C9DC76441ADA875C00EEFED9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C9DC764A1ADA875C00EEFED9 /* EricaTPC01Hybrid1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EricaTPC01Hybrid1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9DC764F1ADA875C00EEFED9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9DC76501ADA875C00EEFED9 /* EricaTPC01Hybrid1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EricaTPC01Hybrid1Tests.swift; sourceTree = "<group>"; };
+		C9DC765A1ADA886B00EEFED9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,10 +77,10 @@
 		C9DC76371ADA875C00EEFED9 /* EricaTPC01Hybrid1 */ = {
 			isa = PBXGroup;
 			children = (
+				C9DC765A1ADA886B00EEFED9 /* Images.xcassets */,
 				C9DC763A1ADA875C00EEFED9 /* AppDelegate.swift */,
 				C9DC763C1ADA875C00EEFED9 /* ViewController.swift */,
 				C9DC763E1ADA875C00EEFED9 /* Main.storyboard */,
-				C9DC76411ADA875C00EEFED9 /* Images.xcassets */,
 				C9DC76431ADA875C00EEFED9 /* LaunchScreen.xib */,
 				C9DC76381ADA875C00EEFED9 /* Supporting Files */,
 			);
@@ -192,9 +192,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9DC765B1ADA886B00EEFED9 /* Images.xcassets in Resources */,
 				C9DC76401ADA875C00EEFED9 /* Main.storyboard in Resources */,
 				C9DC76451ADA875C00EEFED9 /* LaunchScreen.xib in Resources */,
-				C9DC76421ADA875C00EEFED9 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +411,7 @@
 				C9DC76561ADA875C00EEFED9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C9DC76571ADA875C00EEFED9 /* Build configuration list for PBXNativeTarget "EricaTPC01Hybrid1Tests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +420,7 @@
 				C9DC76591ADA875C00EEFED9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
